@@ -69,3 +69,8 @@ docker image prune
 docker container exec -it mi_container_app bash
 ```
 
+#### Port
+>Ver los puertos publicados que tiene el contenedor
+```
+docker container port mi_container_app
+```
